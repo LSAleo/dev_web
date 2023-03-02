@@ -1,0 +1,75 @@
+/* html{
+
+} */
+
+.div_pp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(59, 56, 56);
+}
+.pp{
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+}
+.cote{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 179, 108);
+    width: 100vw;
+    padding: 20px;
+}
+.figcaption{
+    background-color: rgb(59, 56, 56);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+figure{
+    background-color: rgb(59, 56, 56);
+}
+.etudiant{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+.formation{
+    background-color: rgb(109, 151, 144);
+    padding: 20px;
+}
+#formation, #informations, #competences{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 4px;
+}
+.section_competence{
+    background-color: rgb(202, 145, 91);
+    padding: 20px;
+}
+.notes{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/* responsive tablette */
+@media screen and (min-width: 768px) {
+
+}
+
+/* responsive pc */
+@media screen and (min-width: 1024px) {
+
+}
